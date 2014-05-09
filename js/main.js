@@ -1,7 +1,7 @@
 
 
 var options = {
-    workerUrl: '/js/wordfreq.worker.js',
+    workerUrl: 'js/wordfreq.worker.js',
     minimumCount:1
 };
 var wordfreq = WordFreq(options);

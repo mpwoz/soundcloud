@@ -3,6 +3,17 @@
 Voice recognition and visualization demo.
 
 
+## Live Example
+
+See a live version of the site at 
+[https://mpwoz.github.io/soundcloud/](https://mpwoz.github.io/soundcloud/)
+
+
+Note: The `https` is important, as it prevents you from having to re-allow
+the microphone every few seconds. This is something we did to overcome the 
+speech recognition time limit imposed by the browser. 
+
+
 ## Running locally
 
 * Run `python server.py` from the root directory
@@ -19,6 +30,8 @@ every few seconds (allowing the voice recognition to run continuously)
 ## Team Members
 
 Greg Blaszczuk : Word cloud rendering, frequency calculation
+
+
 Martin Wozniewicz : Speech recognition, https server
 
 
